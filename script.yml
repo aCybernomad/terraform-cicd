@@ -1,0 +1,13 @@
+#cloud-config
+
+package_upgrade: true
+packages:
+  - python3-pip
+  - ansible
+  - apache2
+  - docker.io
+
+runcmd:
+  - sudo ansible-pull -U https://github.com/aCybernomad/ansible_cicd -d /home/ansible-pull playbook.yml
+  - echo "hello dennis" | sudo tee /var/www/html/index.html
+  - systemctl restart apache2
