@@ -97,7 +97,7 @@ sudo ansible-pull -U https://github.com/aCybernomad/ansible_cicd -d /home/ansibl
 key_name      = "dennis_akind" # Pushar publik nyckel som matchas i AWS-Cloud
 ```
 
-### Tail: loggar för "cloud config"
+### Tail: loggar för "cloud config" (På den nyskapade servern)
 
 ```bash
 tail -f /var/log/cloud-init-output.log

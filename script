@@ -1,22 +1,7 @@
-/usr/local/bin/ansible-pull -U https://${USER_NAME_GITHUB}:${GITHUB_PERSONAL_ACCESS_TOKEN}@github.com/aCybernomad/ansible-cicd -d /home/
-
-https://github.com/aCybernomad/ansible-cicd.git
-
-git clone https://${USER_NAME_GITHUB}:${PERSONAL_ACCESS_TOKEN_GITHUB}@github.com/aCybernomad/ansible-cicd.git
-
-git clone https://${USER_NAME}:${PERSONAL_ACCESS_TOKEN_GITHUB}@github.com/aCybernomad/ansible-cicd.git
-
-
-git clone https://aCybernomad:@$rqeCGqPET;N5cF@github.com/aCybernomad/ansible-cicd.git
-
-git clone https://aCybernomad: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@github.com/aCybernomad/ansible-cicd.git
-git clone https://aCybernomad:${SECRET_TOKEN}@github.com/aCybernomad/ansible-cicd.git
 
 
 #funkar
 
-#PAT för privat repo
-git clone https://aCybernomad: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@github.com/aCybernomad/ansible-cicd.git
 
 
 /usr/local/bin/ansible-pull -U https://${USER_NAME}:${SECRET_TOKEN}@github.com/aCybernomad/ansible_cicd -d /home/pull playbook.yml

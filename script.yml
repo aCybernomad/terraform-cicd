@@ -8,6 +8,6 @@ packages:
   - docker.io
 
 runcmd:
-  - sudo ansible-pull -U https://github.com/aCybernomad/ansible_cicd -d /home/ansible-pull playbook.yml
+  - sudo ansible-pull -U https://github.com/aCybernomad/final_ansible_cicd -d /home/ansible-pull playbook.yml
   - echo "hello dennis" | sudo tee /var/www/html/index.html
   - systemctl restart apache2
